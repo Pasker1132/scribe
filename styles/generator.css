@@ -1,0 +1,347 @@
+.sl_gen{}
+.sl_gen .content_message{
+    width:380px;
+}
+.sl_gen .content_message.success{
+    background-color: #88c53a;
+}
+
+.sl_gen h1{
+    color: #3968BC;
+    font-weight: 200;
+    text-align: center;
+}
+.sl_gen h4{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 200;
+    margin: 30px auto;
+}
+.sl_gen form{
+    max-width: 380px;
+    margin: 0px auto 20px auto;
+}
+.sl_gen form > a{margin: 30px auto 0px;display: block;width: 148px;cursor: pointer;}
+
+#sl_input{
+    background-color: white;
+    box-shadow: 0px 0px 8px -2px #AAA;
+    position: relative;
+}
+#sl_input i{
+    display: inline-block;
+    width: 23px;
+    height: 24px;
+    background: url(../pics/link_icon%402x.png) 0 0 no-repeat;
+    background-size: 23px 24px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+#sl_input input{
+    border: none;
+    padding: 13px 40px;
+    display: block;
+    width: 300px;
+    font-size: 14px;
+    font-weight: 400;
+    outline:none;
+}
+#sl_input input.active{
+    padding: 13px 40px 13px 40px;
+}
+#sl_input button#options_btn{
+    display: inline-block;
+    width: 23px;
+    height: 23px;
+    border: none;
+    background: url(../pics/securelink_settings_icon%402x.png) 0 0 no-repeat;
+    background-size: 46px 23px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    outline: none;
+}
+#sl_input button#options_btn.active{
+    background: url(../pics/securelink_settings_icon%402x.png) -23px 0 no-repeat;
+    background-size: 46px 23px;
+}
+#sl_input button#sl_copy{
+    display: none;
+    border: none;
+    position: absolute;
+    top: 7px;
+    right: 6px;
+    border-radius: 4px;
+    padding: 0px 6px 0px 6px;
+    font-size: 14px !important;
+}
+#sl_options{
+    box-shadow: 0px 0px 10px -2px #CCC;
+    display: none;
+    background-color: #F9F9F9;
+}
+#sl_options h2{
+    margin: 0px;
+    color: #3C6AB9;
+    font-size: 14px;
+    padding: 10px 15px;
+    font-weight: 400;
+    border-bottom: 1px solid #EEE;
+    text-align: left;
+}
+#sl_options input{
+    width: 100%;
+    display: block;
+    border: none;
+    background: transparent;
+    color: #B7B7B7;
+    padding: 15px 15px;
+    border-bottom: 1px solid #EEE;
+    font-size: 14px;
+    outline: none;
+}
+
+#sl_force{
+    position: relative;
+    padding-bottom: 10px;
+    text-align: left;
+}
+#sl_force h2{
+    border: none;
+    padding-bottom: 0px;
+}
+#sl_force small{
+    color: #3C6AB9;
+    font-size: 11px;
+    padding: 0px 0px 0px 15px;
+    display: inline-block;
+    font-weight: 200;
+    width: 70%;
+}
+
+#sl_options .toggle_wrapper{
+    width: 50px;
+    position: absolute;
+    right: 10px;
+    top: 12px;
+}
+
+.question{
+    padding:5px;
+}
+
+#sl_questions{}
+#sl_questions h1{
+    color: #3C6AB9;
+    font-weight: 200;
+    text-align: center;
+    cursor: pointer;
+}
+#sl_questions h1 i{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #CCC;
+    border-radius: 30px;
+    margin: 10px;
+    position: absolute;
+    right: 0px;
+}
+#sl_questions h1 i:after{
+    content: "";
+    border-bottom: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-left: 7px solid transparent;
+    border-top: 10px solid #CCC;
+    position: absolute;
+    top: 11px;
+    left: 8px;
+}
+#sl_questions h1.active i{
+    border: 1px solid #3C6AB9;
+}
+#sl_questions h1.active i:after{
+    border-top: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-left: 7px solid transparent;
+    border-bottom: 10px solid #3C6AB9;
+    top: 2px;
+}
+#sl_questions .question div{
+    display: none;
+    width: 480px;
+    margin: 0px auto;
+}
+#sl_questions p{
+    color: #333;
+    font-weight: 200;
+    text-align: center;
+    margin: 0px auto 30px;
+    font-size: 18px;
+    padding: 10px 20px;
+}
+
+#sl_questions a.gen_link{
+    color: #3C6AB9;
+    display: block;
+    width: 150px;
+    margin: 20px auto;
+    border: 1px solid rgb(151, 184, 241);
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 30px;
+    background: rgba(255,255,255,1);
+    background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(47%, rgba(246,246,246,1)), color-stop(100%, rgba(237,237,237,1)));
+    background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+    background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+    background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+    background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed', GradientType=0 );
+}
+
+input#toggle {
+    max-height: 0;
+    max-width: 0;
+    opacity: 0;
+}
+
+input#toggle + label {
+    display: block;
+    position: relative;
+    box-shadow: inset 0 0 0px 1px #d5d5d5;
+    text-indent: -5000px;
+    height: 30px;
+    width: 50px;
+    border-radius: 15px;
+}
+
+input#toggle + label:before {
+    content: "";
+    position: absolute;
+    display: block;
+    height: 30px;
+    width: 30px;
+    top: 0;
+    left: 0;
+    border-radius: 15px;
+    background: rgba(19, 191, 17, 0);
+    -moz-transition: .25s ease-in-out;
+    -webkit-transition: .25s ease-in-out;
+    transition: .25s ease-in-out;
+}
+
+input#toggle + label:after {
+    content: "";
+    position: absolute;
+    display: block;
+    height: 30px;
+    width: 30px;
+    top: 0;
+    left: 0px;
+    border-radius: 15px;
+    background: white;
+    box-shadow: inset 0 0 0 1px rgba(0, 0, 0, .2), 0 2px 4px rgba(0, 0, 0, .2);
+    -moz-transition: .25s ease-in-out;
+    -webkit-transition: .25s ease-in-out;
+    transition: .25s ease-in-out;
+}
+
+input#toggle:checked + label:before {
+    width: 50px;
+    background: #3C6AB9;
+}
+
+input#toggle:checked + label:after {
+    left: 20px;
+    box-shadow: inset 0 0 0 1px #3C6AB9, 0 2px 4px rgba(0, 0, 0, .2);
+}
+
+#link.active{
+    color: #3C6AB9;
+}
+
+#generate_new{
+    display: none;
+    width: 186px;
+}
+
+.sl_gen a.auto_generate_link {
+    font-size: 16px;
+    width: initial;
+    text-align: center;
+}
+
+@media screen and (max-width: 800px){
+
+    #sl_questions h1{
+        font-size: 16px;
+        position: relative;
+    }
+
+    #sl_questions h1 i{
+        right: 6px;
+        top: -6px;
+        margin: 0px;
+    }
+
+    #sl_questions .question div{
+        width:380px;
+    }
+
+}
+
+@media screen and (max-width: 400px){
+
+    #sl_questions h1{
+        text-align: left;
+        padding-left: 15px;
+    }
+
+    #sl_questions .question div{
+        width: 360px;
+    }
+
+    #sl_input input{
+        width: 260px;
+    }
+
+    #sl_input input.active{
+        padding: 13px 40px 13px 40px;
+    }
+
+    #sl_questions p{
+        text-align: left;
+    }
+
+}
+
+@media screen and (max-width: 320px){
+
+    #sl_input input{
+        font-size: 12px;
+        width: 220px;
+    }
+
+    #sl_questions h1 {
+        font-size: 14px;
+        position: relative;
+        padding-left:10px;
+        text-align: left;
+        margin: 16px 0px;
+    }
+
+    #sl_questions .question div{
+        width:300px;
+    }
+
+    .sl_gen h1{
+        font-size: 26px;
+    }
+
+    .sl_gen h4{
+        font-size: 12px;
+        margin: 20px auto;
+    }
+}

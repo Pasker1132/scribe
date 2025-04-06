@@ -1,0 +1,1146 @@
+#gp_cont{
+    text-align: center;
+}
+#gp_top{
+    background: url(../pics/pro-pattern-bg.png) 0px 0px repeat #00163f;
+    padding: 100px 10px 170px;
+    margin-top: -95px;
+}
+#gp_top h1{
+    max-width: 650px;
+    margin: 40px auto 20px;
+    color: white;
+    font-weight: lighter;
+    padding: 0px 10px;
+    font-size: 38px;
+}
+#gp_top h1 strong{}
+
+.pro-price{
+    margin: 0px 20px;
+    font-size: 17px;
+}
+
+.free-price{
+    margin: 0px 20px;
+    font-size: 17px;
+    padding: 10px 0px 0px 0px;
+}
+#gp-pro-month .pro-price{
+
+}
+
+strong.best-value{
+    position: absolute;
+    left: 50%;
+    top: 57px;
+    z-index: 9;
+    margin-left: -38px;
+    font-size: 12px;
+    font-weight: lighter;
+    background-color: #30c1f4;
+    padding: 0px 5px;
+}
+
+#gp_top h1 span{
+    font-weight: bold;
+    color: #2Ed0FD;
+}
+#gp_top p{
+    padding: 10px;
+    color: white;
+    font-weight: lighter;
+    max-width: 500px;
+    margin: 10px auto;
+    font-size: 20px;
+}
+
+i#top_logo{
+    display: block;
+    width: 124px;
+    height: 19px;
+    margin: 0px auto;
+    background: url(../pics/WS-Logo-white.png);
+}
+
+#gp-bottom{
+    margin-top: -130px;
+    margin-bottom: 130px;
+}
+#free-top{
+    color: white;
+    /* FF3.6-15 */
+    /* Chrome10-25,Safari5.1-6 */
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    background: rgba(255,255,255,0.5);
+    margin-top: 62px;
+}
+#free-top h1{
+    font-weight: lighter;
+    margin: 6px 0px 0px;
+    clear: both;
+    line-height: 68px;
+}
+#free-top span{
+    text-align: left;
+    display: block;
+    text-indent: 20px;
+    font-size: 20px;
+    font-weight: lighter;
+    margin: 0px 0px 0px 0px;
+    padding-bottom: 17px;
+}
+#free-top span i{
+    display: inline-block;
+    float: right;
+    width: 130px;
+    height: 24px;
+    background: url(../pics/Free-stars.png);
+    margin-right: 20px;
+}
+#free-bottom{
+    background-color: white;
+    box-shadow: 0px 0px 20px -3px #777;
+}
+
+#gp-free{
+    width: 300px;
+    display: inline-block;
+    margin: 0px;
+    vertical-align: top;
+}
+#gp-free ul{
+    margin: 0px;
+    padding: 10px 0px;
+    list-style: none;
+    color: #777;
+}
+#gp-free ul li{
+    line-height: 30px;
+}
+#gp-free a{
+    color: #777;
+    border: 1px solid #dcdcdc;
+    padding: 6px 40px;
+    display: inline-block;
+    margin: 10px auto 20px;
+    border-radius: 20px;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+#gp-free a:hover{
+    background-color: #f9f9f9;
+}
+
+#gp-pro, #pro-yearly-box{
+    width: 301px;
+    display: inline-block;
+    background: rgb(46,208,253); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(46,208,253,1) 0%, rgba(57,104,188,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(46,208,253,1) 0%,rgba(57,104,188,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(46,208,253,1) 0%,rgba(57,104,188,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ed0fd', endColorstr='#3968bc',GradientType=0 ); /* IE6-9 */
+    vertical-align: top;
+    margin: 0px -3px 0px -3px;
+    color: white;
+    /*box-shadow: 0px 0px 32px -5px #30c0f3;*/
+    position: relative;
+    /*z-index: 9;*/
+}
+
+#gp-pro span.heading, #gp-pro-month span.heading{
+    margin: 0px 20px 0px;
+    display: block;
+    border-bottom: 1px solid rgba(255,255,255,0.5);
+    line-height: 60px;
+}
+#gp-pro span.pro-heading, #gp-pro-month span.pro-heading{
+    text-align: left;
+    display: block;
+    margin: 20px 20px;
+}
+#gp-pro span.pro-heading strong, #gp-pro-month span.pro-heading strong{
+    float: right;
+    font-weight: lighter;
+    font-size: 14px;
+    vertical-align: middle;
+}
+
+.pro-heading i{
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+#gp-pro .pro-heading i{
+    background: url(../pics/small-pro-star-white.png) 0 0 no-repeat;
+}
+#gp-pro-month .pro-heading i{
+    background: url(../pics/small-pro-star.png) 0 0 no-repeat;
+}
+
+#gp-pro-month span.heading{}
+#gp-pro-month span.pro-heading{}
+#gp-pro-month span.pro-heading strong{}
+
+#gp-pro > h1{
+    padding: 34px 0px 12px !important;
+}
+
+#gp-pro h1, #gp-pro-month h1{
+    margin: 20px 20px;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+    padding: 10px 0px;
+    position: relative;
+    z-index: 1;
+    border-top: 1px solid rgba(255,255,255,0.2);
+}
+#gp-pro-month h1{
+    border-bottom: 1px solid rgb(46, 206, 252);
+    border-top: 1px solid rgb(46, 206, 252);
+    font-size: 20px;
+}
+#gp-pro ul, #gp-pro-month ul{
+    padding: 0px;
+    margin: 10px 0px;
+    list-style: none;
+}
+#gp-pro ul li, #gp-pro-month ul li{
+    line-height: 30px;
+    font-size: 20px;
+}
+#gp-pro a, #gp-pro-month a{
+    color: #ffffff;
+    background-color: #88c53a;
+    display: inline-block;
+    padding: 15px 45px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 4px rgba(0,0,0,0.15);
+    position: relative;
+    z-index: 2;
+    margin: 15px auto 10px;
+    text-decoration: none;
+}
+
+#gp-pro a:hover, #gp-pro-month a:hover{
+    background-color: #2ecdfb;
+}
+
+#gp-pro small{
+    display: block;
+    margin: 40px auto 20px;
+    font-weight: lighter;
+}
+
+#gp-pro .ws-icon-bg, .ws-icon-bg{
+    width: 191px;
+    height: 368px;
+    background: url(../pics/Unlimited-BG-WS-Badge.png);
+    position: absolute;
+    top: 30px;
+    right: 0px;
+    z-index: 0;
+}
+
+#gp-pro-month{
+    width: 300px;
+    display: inline-block;
+    color: #2ecefc;
+    position: relative;
+}
+#gp-pro-month a{
+    color: #fff;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    padding: 10px 35px;
+    box-shadow: none;
+}
+
+#gp-bottom h3{
+    color: #3968bc;
+    margin: 70px auto 0px;
+}
+#gp-bottom h5{
+    margin: 0px 0px 40px 0px;
+    font-weight: lighter;
+}
+#gp-bottom > a{
+    color: white;
+    background-color: #396abd;
+    padding: 8px 42px;
+    border-radius: 20px;
+}
+
+#gp-bottom > a:hover{
+    background-color: #1b4fa9;
+}
+
+#gp-platforms{
+    background-color: white;
+    padding: 20px 10px;
+    margin: 0px auto 0px;
+}
+#gp-platforms h1{
+    color: #396abd;
+    font-size: 14px;
+    font-weight: lighter;
+}
+#gp-platforms i{
+    width: 433px;
+    height: 41px;
+    display: block;
+    margin: 40px auto 20px;
+    background: url(../pics/Platform-Logos.png);
+}
+
+
+.back > span{}
+.back a{
+    margin: 0px auto;
+    display: inline-block;
+    color: #2ecefc;
+}
+.back a.flip-back{
+    background: transparent !important;
+    box-shadow: none !important;
+    display: block !important;
+    color: #3968bc;
+    border: none !important;
+    margin-top: 10px !important;
+}
+#pro-yearly-box .back a.flip-back{
+    color:white;
+}
+
+#gp-pro-month .flip-back{
+    color: #2ecefc !important;
+    margin-top: 0px !important;
+}
+
+#gp-pro-month .payment_options {
+    border-bottom: 1px solid rgb(46, 206, 252);
+}
+
+.payment_options{
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+    margin: 0px 20px;
+}
+.payment_options .payment_opt{
+    cursor: pointer;
+    display: block;
+    text-align: left;
+    line-height: 25px;
+    margin: 15px 0px;
+    width: auto;
+}
+.payment_options .payment_opt span{
+    width: 16px;
+    height: 16px;
+    border-radius: 10px;
+    border: 1px solid #3968bc;
+    display: inline-block;
+    vertical-align: middle;
+    float: right;
+    position: relative;
+}
+#pro-yearly-box .payment_options .payment_opt span{
+    border-color:white;
+}
+.payment_options .payment_opt span i{
+    border: none;
+    width: 0;
+    height: 0;
+    margin: 0;
+}
+.payment_options .payment_opt.selected span i{
+    width: 10px;
+    height: 10px;
+    background-color: #3968bc;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -5px;
+    margin-top: -5px;
+}
+#pro-yearly-box .payment_options .payment_opt.selected span i{
+    background-color: white;
+}
+#gp-pro-month .payment_options .payment_opt span{
+    border: 1px solid #2ecefc !important;
+}
+#gp-pro-month .payment_options .payment_opt.selected span i{
+    background-color: #2ecefc !important;
+}
+
+#free-bottom h1{
+    margin: 0px 20px;
+    padding: 15px 0px;
+    color: gray;
+}
+
+/* entire container, keeps perspective */
+.flip-container {
+    perspective: 1000px;
+    position: relative;
+    z-index: 2;
+}
+/* flip the pane when hovered */
+.flip-container.hover .flipper {
+    transform: rotateY(180deg);
+}
+
+.flip-container, .front, .back {
+    width: 300px;
+    height: 680px;
+}
+
+/* flip speed goes here */
+.flipper {
+    transition: 0.6s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+/* hide back of pane during swap */
+.front, .back {
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* front pane, placed above back */
+.front {
+    z-index: 2;
+    /* for firefox 31 */
+    transform: rotateY(0deg);
+}
+
+/* back, initially hidden pane */
+.back {
+    transform: rotateY(180deg);
+    padding: 25px 0px 0px 0px;
+    color: #3968bc;
+    z-index: 3;
+}
+#pro-yearly-box .back {
+    color: white;
+}
+#right-shadow-box{
+    position: absolute;
+    border-radius: 8px;
+}
+#right-shadow-box:before{
+    position: absolute;
+    width: 95%;
+    height: 32%;
+    content: '';
+    box-shadow: 0px 0px 18px 0px #aaa;
+    top: 5px;
+    right: 0;
+    z-index: 0;
+    border-radius: 8px;
+}
+
+.flip-container.giftly, .giftly .front, .giftly .back{
+    height: 480px;
+    background-color: white;
+    border-radius: 0px 8px 8px 0px;
+}
+
+.flip-container.yearly, .yearly .front, .yearly .back{
+    height: 420px;
+}
+
+.shadow-bg-spacer {
+    width: 300px;
+    height: 420px;
+    background-color: white;
+    position: relative;
+    border-radius: 8px;
+}
+
+#left-shadow-box{
+    position: absolute;
+    border-radius: 8px;
+}
+#left-shadow-box:before {
+    position: absolute;
+    width: 95%;
+    height: 32%;
+    content: '';
+    box-shadow: 0px 0px 18px 0px #aaa;
+    top: 5px;
+    left: 0;
+    z-index: 0;
+    border-radius: 8px;
+}
+
+.flip-container.monthly, .monthly .front, .monthly .back{
+    height: 500px;
+    background: white;
+    border-radius: 8px;
+}
+.flip-container.monthly{
+    /* margin-top: 26px; */
+    background: white;
+    border-radius: 8px 0px 0px 8px;
+    position: relative;
+    z-index: 2;
+}
+
+#gp-payment_methods{
+    margin: 20px auto 0px;
+    background-color: white;
+    padding: 20px;
+}
+#gp-payment_methods h1{
+    color: #396abd;
+    font-size: 14px;
+    font-weight: lighter;
+}
+#gp-payment_methods i{
+    width: 780px;
+    height: 45px;
+    background: url(../pics/desktop-pymnt-met.png) 0 0 no-repeat;
+    display: block;
+    margin: 30px auto 0px;
+}
+
+.promo_discount.lower{
+    top: 0px;
+}
+
+.promo_discount{
+    position: absolute;
+    background-color: white;
+    color: #2ecefc;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    line-height: 15px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 5px -1px #444;
+    z-index: 9;
+    right: -24px;
+    top: -20px;
+    font-size: 14px;
+}
+
+.upgrade-pro-gift .promo_discount_star {
+    background: white;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    text-align: center;
+    color: green;
+    position: absolute;
+    z-index: 9;
+    right: 20px;
+    top: -29px;
+    font-size: 14px;
+    /* box-shadow: 0px 0px 20px 0px #666; */
+}
+.upgrade-pro-gift .promo_discount_star:before, .upgrade-pro-gift .promo_discount_star:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 50px;
+    width: 50px;
+    background: white;
+    /* box-shadow: 0px 0px 20px 0px #666; */
+}
+.upgrade-pro-gift .promo_discount_star:before {
+    -webkit-transform: rotate(30deg);
+    -moz-transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+    -o-transform: rotate(30deg);
+}
+.upgrade-pro-gift .promo_discount_star:after {
+    -webkit-transform: rotate(60deg);
+    -moz-transform: rotate(60deg);
+    -ms-transform: rotate(60deg);
+    -o-transform: rotate(60deg);
+}
+.upgrade-pro-gift .promo_discount_star span{
+    position: absolute;
+    z-index: 10;
+    color: #86c72c;
+    width: 50px;
+    top: 50%;
+    left: 50%;
+    margin-left: -25px;
+    margin-top: -15px;
+    font-size: 13px;
+}
+
+.renew_option{
+    font-size: 14px;
+    font-weight: normal;
+}
+.renew_option h1{
+    font-size: 14px !important;
+    font-weight: lighter;
+    margin: 0px 20px !important;
+    padding: 13px 0px !important;
+    border-bottom: none !important;
+    border-top: none !important;
+}
+.renew_option strong{
+    font-weight: lighter;
+}
+
+.renew_option span{
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    border: 1px solid #3968bc;
+    border-radius: 10px;
+    vertical-align: middle;
+    margin: 0px 5px;
+}
+#pro-yearly-box .renew_option span{
+    border-color:white;
+}
+.renew_option span i{}
+.renew_yes{
+    display: inline-block;
+    margin-right: 15px;
+    cursor: pointer;
+}
+.renew_no{
+    display: inline-block;
+    cursor: pointer;
+}
+.renew_option .selected span i{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #3968bc;
+    vertical-align: top;
+    border-radius: 10px;
+    margin: 2px 0px 0px 0px;
+}
+#pro-yearly-box .renew_option .selected span i{
+    background-color:white;
+}
+.renew_no.selected span i{}
+
+#gp-pro-month .renew_option{}
+#gp-pro-month .renew_option span{
+    border: 1px solid rgb(50, 207, 252);
+}
+#gp-pro-month .renew_option .selected span i{
+    background-color: #38d0fc;
+}
+#gp-pro-month .renew_no.selected span i{}
+
+.payment_spacer {
+    margin: 0px 0px 20px 0px;
+}
+
+.promo_price{text-decoration: line-through;float: right;}
+
+#paywall-cont{
+    padding: 40px 0px;
+    display: none;
+}
+
+#voucher-cont{
+    margin: 20px auto;
+    width: 300px;
+}
+#voucher-cont > a {
+    color: white;
+    text-decoration: none;
+    background: #86c72c;
+    padding: 10px 15px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+#promo-form{
+    text-align: center;
+    display: none;
+}
+#promo-form input{
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    padding: 5px 5px;
+    border-radius: 5px;
+    border: 1px solid #CCC;
+}
+#promo-form a{
+    padding: 10px 15px;
+    font-size: 16px;
+    margin-top: 15px;
+    display: inline-block;
+    min-width: 150px;
+}
+
+#gp_top h1 span i{
+    width: 31px;
+    height: 31px;
+    display: inline-block;
+    background: url(../pics/big-pro-star.png) 0 0 no-repeat;
+    margin: 0px 5px 10px;
+    vertical-align: bottom;
+}
+
+#server-locations-cont{
+    background: url(../pics/pro-pattern-bg.png) 0px 0px repeat #00163f;
+    height: 400px;
+    padding-top: 20px;
+}
+#server-locations-cont h1{
+    color: white;
+    font-weight: lighter;
+}
+.plan_compare table{
+    border: none;
+    box-shadow: 0px 2px 6px #9e9e9e;
+    background: white;
+}
+.locations_table i.checkmark{
+    background: url(../pics/blue-checkmark.png);
+    width: 24px;
+    height: 24px;
+}
+.plan_compare i{
+    background: url(../pics/small-pro-star.png) 0 0 no-repeat;
+    width: 24px;
+    height: 24px;
+}
+
+.locations_table{
+    margin-top: -300px;
+    margin-bottom: 100px;
+}
+
+.rebill-message{
+    font-weight: lighter;
+    border: 1px solid rgba(255,255,255,0.5);
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 55px;
+    width: 230px;
+    left: 50%;
+    margin-left: -126px;
+}
+#gp-pro-month .rebill-message{
+    border-color: #2ecefc;
+    bottom: 41px;
+}
+
+.comp-heading {
+    font-size: 12px !important;
+    line-height: 15px !important;
+    padding: 6px 0 0 0;
+    border-top: 1px solid rgba(228, 228, 228, 0.26);
+    margin: 2px 0 0 0;
+    opacity: 0.7;
+}
+
+.upgrade-pro-gift{}
+
+#pro-monthly-box{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 40px;
+    /* background-color: white; */
+}
+#pro-yearly-box{
+    border-radius: 8px;
+}
+#pro-gift-box{
+    display: inline-block;
+    margin-top: 40px;
+    /* border-radius: 5px; */
+}
+
+#pro-gift-icon{
+    position: absolute;
+    top:15px;
+    right:15px;
+}
+
+.pro-heading-box{
+    margin-top: 40px;
+}
+.pro-heading-box h1{
+    margin-top: 0px;
+    color: #3968bc;
+    font-size: 26px;
+}
+.pro-heading-box h3{
+    margin: 0px !important;
+    font-weight: lighter;
+    font-size: 14px;
+}
+
+
+#pro-yearly-box .pro-heading-box{}
+#pro-yearly-box .pro-heading-box h1{
+    color: white;
+}
+#pro-yearly-box .pro-heading-box h3{
+    color: #c7e2f3;
+}
+
+#pro-yearly-box .plan_price{
+    color: white;
+    margin-top: 75px;
+}
+
+.plan_price{
+    font-size: 42px;
+    color: #3867bc;
+    margin-bottom: 6px;
+}
+.plan_price small{
+    font-size: 20px;
+}
+.plan_price_term{
+    font-size: 18px;
+    color: #bdd5ff;
+}
+.upgrade-pro-gift .buy-now, .back a{
+    color: #86c72c;
+    text-decoration: none;
+    border: 2px solid #86c72c;
+    padding: 10px 20px;
+    border-radius: 25px;
+}
+.upgrade-pro-gift .buy-now:hover{
+    background-color: #f4fbea;
+}
+#month-buynow{}
+#year-buynow, #pro-yearly-box .upgrade-pro-gift .buy-now, .back a{
+    color: white;
+    background-color: #86c72c;
+
+}
+#year-buynow:hover, #pro-yearly-box .upgrade-pro-gift .buy-now:hover, .back a.pay_btn:hover{
+    background-color: #7ab529;
+    border-color:#7ab529;
+}
+#gift-buynow{}
+
+.upgrade-pro-gift .rebill-message{}
+
+#pro-popular{
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    margin-left: -50px;
+    color: #dde4ef;
+    opacity: 0.5;
+    font-size: 13px;
+}
+
+#pro-features{
+    margin: 20px 0px;
+}
+
+.pro-feature-box{
+    display: inline-block;
+    margin: 20px;
+    vertical-align: top;
+}
+.pro-feature-box svg{}
+
+.pro-feature-text{
+    display: inline-block;
+    text-align: left;
+    margin-left: 10px;
+}
+.pro-feature-text h3{
+    color: white;
+    font-weight: normal;
+    margin: 0px 0px 5px 0px;
+}
+
+.pro-feature-text a {
+    color: white;
+}
+.pro-feature-text h4{
+    color: #68718e;
+    font-weight: normal;
+    margin: 0px;
+    font-size: 14px;
+}
+
+#pro-gift-info-box{
+    width: 60%;
+    margin: 60px auto;
+    box-shadow: 0px 0px 45px -3px #CCC;
+    padding: 20px;
+    position: relative;
+    display: none;
+}
+#pro-gift-info-box:before{
+    content:'';
+    position: absolute;
+    width: 0;
+    height: 0;
+    /* background-color: white; */
+    top: -16px;
+    display: inline-block;
+    border-left: 16px solid transparent;
+    border-right: 16px solid transparent;
+    border-bottom: 16px solid white;
+    /* box-shadow: 0px 0px 5px 0px; */
+    left: 50%;
+    margin-left: -16px;
+}
+.flip-container.giftly .flipper .front > svg{}
+#pro-gift-info-box svg{}
+#pro-gift-info-box p{
+    font-size: 13px;
+    color: #666;
+}
+#pro-gift-info-box p strong{}
+#pro-gift-info-box h4{
+    font-size: 13px;
+    color: #4b86d8;
+    background-color: #eaf1fb;
+    font-weight: normal;
+    padding: 10px 30px;
+    display: inline-block;
+    margin: 0px 10px 16px;
+    border-radius: 25px;
+}
+#pro-gift-info-box a{
+    text-decoration: none;
+    color: #666;
+    font-size: 12px;
+}
+
+.paywallframe{
+}
+
+@media (min-resolution: 1.5dppx), (min-resolution: 120dpi), (-webkit-min-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3/2){
+
+    #gp_top{
+        background: url(../pics/pro-pattern-bg.png) 0px 0px repeat #00163f;
+        background-size: 307px;
+    }
+    i#top_logo{
+        background: url(../pics/WS-Logo-white%402x.png);
+        background-size: 124px 19px;
+    }
+    #free-top span i{
+        background: url(../pics/Free-stars%402x.png);
+        background-size: 130px 24px;
+    }
+    #gp-pro .ws-icon-bg, .ws-icon-bg{
+        background: url(../pics/Unlimited-BG-WS-Badge%402x.png);
+        background-size: 191px 368px;
+    }
+    #gp-platforms i{
+        background: url(../pics/Platform-Logos%402x.png);
+        background-size: 433px 41px;
+    }
+    #gp-payment_methods i{
+        background: url(../pics/desktop-pymnt-met%402x.png) 0 0 no-repeat;
+        background-size: 780px 45px;
+    }
+    #gp_top h1 span i{
+        background: url(../pics/big-pro-star%402x.png) 0 0 no-repeat;
+        background-size: 31px;
+    }
+
+    #gp-pro .pro-heading i{
+        background: url(../pics/small-pro-star-white%402x.png) 0 0 no-repeat;
+        background-size: 24px;
+    }
+    #gp-pro-month .pro-heading i{
+        background: url(../pics/small-pro-star%402x.png) 0 0 no-repeat;
+        background-size: 24px;
+    }
+
+    #server-locations-cont{
+        background: url(../pics/pro-pattern-bg%402x.png) 0px 0px repeat #00163f;
+        background-size: 307px;
+    }
+    .locations_table i.checkmark{
+        background: url(../pics/blue-checkmark%402x.png);
+        background-size: 24px;
+    }
+    .plan_compare i{
+        background: url(../pics/small-pro-star%402x.png) 0 0 no-repeat;
+        background-size: 24px;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+
+    #gp_top{
+        margin-top: -135px;
+        padding-top: 110px;
+    }
+
+    #gp_top p {
+        font-size: 15px;
+    }
+
+    .flip-container.monthly, .monthly .front, .monthly .back{
+        margin: 0px auto 50px;
+        border-radius: 8px;
+        box-shadow: 0px 0px 18px 0px #aaa;
+        height: 420px;
+    }
+    .flip-container.yearly, .yearly .front, .yearly .back{
+        margin: 0px auto;
+    }
+    .flip-container.giftly, .giftly .front, .giftly .back{
+        margin: 0px auto;
+        border-radius: 8px;
+        box-shadow: 0px 0px 18px 0px #aaa;
+        height: 560px;
+    }
+
+    #left-shadow-box{
+        display: none;
+    }
+    #right-shadow-box{
+        display: none;
+    }
+
+    #pro-monthly-box, #pro-yearly-box, #pro-gift-box{
+        display:block;
+    }
+
+    #pro-monthly-box{
+        /* text-align: center; */
+        margin-top: 0px;
+    }
+    #pro-yearly-box{
+        margin: 0px auto;
+    }
+    #pro-gift-box{}
+
+    #pro-features {
+        margin: 50px 0px;
+    }
+    .pro-feature-box {
+        display: block;
+        margin: 20px auto;
+        text-align: left;
+        width: 270px;
+    }
+
+    #gp-payment_methods i{
+        background-size: 100%;
+        width: 90%;
+    }
+
+    #pro-monthly-box .back{
+        height: 395px;
+    }
+
+    #gp-bottom.upgrade-pro-gift{
+        margin-top: -130px !important;
+    }
+
+}
+
+@media only screen and (max-width: 680px) {
+
+    #gp-pro{
+        margin-top: 60px;
+    }
+
+    #gp-platforms i{
+        background-size: 216px 20px;
+        background-repeat: no-repeat;
+        background-position-x: center;
+        width: 216px;
+    }
+
+    #gp-free{
+        display:none;
+    }
+
+    #gp-payment_methods i{
+        width:300px;
+        height:17px;
+        background-size:300px 17px
+    }
+
+    #gp_top h1{
+        font-size: 20px !important;
+        padding: 0px 24px !important;
+    }
+    #gp_top h1 span i{
+        margin-bottom: -3px !important;
+    }
+    #gp-bottom{
+        margin-top: -210px !important;
+    }
+
+}
+
+
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    /* IE10+ specific styles go here */
+    /* entire container, keeps perspective */
+    .flip-container {
+        perspective: 1000px;
+        transform: none !important;
+        position: relative;
+        z-index: 2;
+    }
+    /*  UPDATED! flip the pane when hovered */
+    .flip-container.hover .back {
+        transform: none !important;
+        display: block;
+    }
+    .flip-container.hover .front {
+        transform: none !important;
+        display: none;
+    }
+
+    .flip-container, .front, .back {
+        width: 300px;
+        height: 470px;
+    }
+
+    /* flip speed goes here */
+    .flipper {
+        transform: none !important;
+
+        position: relative;
+    }
+
+    /* hide back of pane during swap */
+    .front, .back {
+        transform: none !important;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    /*  UPDATED! front pane, placed above back */
+    .front {
+        z-index: 2;
+        transform: none !important;
+    }
+
+    /* back, initially hidden pane */
+    .back {
+        transform: none !important;
+        display: none;
+    }
+}
